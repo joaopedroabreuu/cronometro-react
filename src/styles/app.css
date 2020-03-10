@@ -1,0 +1,62 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#difference {
+    visibility: visible;
+    font-size: 120px;
+    color: #4ec6ea;
+    text-shadow: 1px 1px 1px #40a6c4;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 128px;
+    transition: all 0 ease 0.5s;
+    width: 100%;
+}
+
+#acoes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#acoes a {
+    width: 246px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 27px 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-family: Helvetica, "MS Trebuchet", sans-serif;
+    letter-spacing: 1px;
+}
+
+#acoes #start_button.pause {
+    background: #993333;
+    color: #ffaaaa;
+}
+
+#acoes #start_button {
+    background: #339933;
+    color: #aaffaa;
+    margin-right: 30px;
+}
+
+#acoes a .subtitle {
+    font-size: 12px;
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#acoes #esc_button {
+    background: #aaaaaa;
+    color: #666666;
+}
